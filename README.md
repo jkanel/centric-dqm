@@ -23,9 +23,9 @@ If there are no tag **```-t```** or scenario **```-s```** command line parameter
 ## Management Database Properties File
 The properties file, ```com.centric.dqm.properties```, specifies location and access to the DQM management database.   This file is located in the same directory as the executable JAR file.
 
-**At this time only SQL Server is supported to host the management database.**
 
-**LDAP authenticated login is not yet supported. A database login with user name and password are required.**
+
+
 
 ```
 driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
@@ -35,9 +35,9 @@ password=123$dqm_admin_password
 maxrows=0
 ```
 
-* ```driver``` is the JDBC driver corresponding to the management database.
-* ```url``` is the JDBC connection URL that specifies the server and database.
-* ```user``` is the database login for the management database.  **This user must have DDL and read/write privileges on the management database**
+* ```driver``` is the JDBC driver corresponding to the management database. **At this time only SQL Server is supported to host the management database.**
+* ```url``` is the JDBC connection URL that specifies the server and database. 
+* ```user``` is the database login for the management database.  **LDAP authenticated login is not yet supported. A database login with user name and password are required. This user must have DDL and read/write privileges on the management database**
 * ```password``` is the corresponding password to access the management database.
 * ```maxrows``` specifies the maximum number of rows allowed in a test resultset.  A zero (0) value indiciates no limit.
 
