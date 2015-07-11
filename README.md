@@ -12,11 +12,11 @@ An example of execution is available in [```centric-dqm/jar_exec_win.bat```](htt
 ## Command Line Parameters
 Several command line parameters are supported:
 
-**```-t```** Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```  Any scenario whose tag list contains either TAG1, TAG2 or ABCD will be tested.
+**```-t```** Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```...any scenario whose tag list contains either TAG1, TAG2 or ABCD will be tested.
 
-**```-s```** Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```  All scenearios with an identifer of SCENARIO1, SCENARIO2 or XYZ will be tested.
+**```-s```** Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```...all scenearios with an identifer of SCENARIO1, SCENARIO2 or XYZ will be tested.
 
-**```-p```** Specifies days past which test cases will be purged from the system.  Not that while aged test cases are purged, the master test record will be preserved. Example: ```-p 30```  All tests whose test date is greater than 30 days old will have its corresponding test cases deleted from the management database.
+**```-p```** Specifies days past which test cases will be purged from the system.  Not that while aged test cases are purged, the master test record will be preserved. Example: ```-p 30```...all tests whose test date is greater than 30 days old will have its corresponding test cases deleted from the management database.
 
 If there are no tag **```-t```** or scenario **```-s```** command line parameters specified, the framework will test all active ```active_flag = "Y"``` scenarios.
 
