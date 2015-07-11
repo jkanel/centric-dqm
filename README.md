@@ -4,19 +4,41 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 **Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45) and higher.**
 
-## Framework Use
-1. The framework is an executable JAR file.  An example of execution is available in [```centric-dqm/jar_exec_win.bat```](https://github.com/jkanel/centric-dqm/blob/master/jar_exec_win.bat)
+## Framework Execution
+The framework is an executable JAR file, ```com.centric.dqm.jar```.  This application manages scenario definition and test result data in a management database.
 
-2. Several command line parameters are supported:
+An example of execution is available in [```centric-dqm/jar_exec_win.bat```](https://github.com/jkanel/centric-dqm/blob/master/jar_exec_win.bat)
 
-* **```-t```** Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
+## Command Line Parameters
+Several command line parameters are supported:
 
-* **```-s```** Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
+**```-t```** Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
 
-* **```-p```** Specifies days past which test cases will be purged from the system.  Not that while aged test cases are purged, the master test record will be preserved. Example: ```-p 30```
+**```-s```** Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
 
-3. If there are no tag **```-t```** or scenario **```-s```** command line parameters specified, the framework will test all active ```active_flag = "Y"``` scenarios.
+**```-p```** Specifies days past which test cases will be purged from the system.  Not that while aged test cases are purged, the master test record will be preserved. Example: ```-p 30```
 
+If there are no tag **```-t```** or scenario **```-s```** command line parameters specified, the framework will test all active ```active_flag = "Y"``` scenarios.
+
+## Management Database Properties File
+The properties file, ```com.centric.dqm.properties```, specifies location and access to the DQM management database.   This file is located in the same directory as the executable JAR file.
+
+**At this time only SQL Server is supported to host the management database.**
+**LDAP authenticated login is not yet supported.  A database login with user name and password are required.**
+
+```
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+url=jdbc:sqlserver://localhost;databaseName=dqm_mgr
+user=dqm_admin
+password=123$dqm_admin_password
+maxrows=0
+```
+
+* ```driver``` is the JDBC driver corresponding to the management database.
+* ```url``` is the JDBC connection URL that specifies the server and database.
+* ```user``` is the database login for the management database.  **This user must have DDL and read/write privileges on the management database**
+* ```password``` is the corresponding password to access the management database.
+* ```maxrows``` specifies the maximum number of rows allowed in a test resultset.  A zero (0) value indiciates no limit.
 
 ## Extension Installation Options
 ### #1 - StarUML Extension Manager
