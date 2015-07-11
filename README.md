@@ -1,6 +1,6 @@
-# centric-dqm
+# Centric Data Quality Monitoring
 
-Centric Data Quality Monitoring is a  testing framework for comparing actual and expected datasets. Java source project is http://github.com/jkanel/centric-dqm-java.
+Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actual and expected datasets. The realated Java source project is http://github.com/jkanel/centric-dqm-java.
 
 **Other Features:**
 * Support for LaTex and MathML formula markup. http://docs.mathjax.org/en/latest/tex.html
