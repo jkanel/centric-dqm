@@ -6,8 +6,8 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 * Support for LaTex and MathML formula markup. http://docs.mathjax.org/en/latest/tex.html
 * Honors carriage returns in the rendering of Html (added 2015-05-15).
 
-## Extension Use
-1. From within StarUML, select the menu ```File >> Export >> Information Model Html...```
+## Framework Use
+1. The framework is an executable JAR file.  An example of execution is available in ```http://github.com/jkanel/centric-dqm/jar_exec_win.bat```
 2. Enter a target Html filename.  It is recommended that target folder be dedicated for this purpose.
 3. The extension will automatically generate the following:
     1. Target Html file.
