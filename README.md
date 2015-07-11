@@ -11,7 +11,7 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 2. Several command line parameters are supported:
 
-* ```-t``` Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
+* **```-t```** Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
 
 * ```-s``` Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
 
