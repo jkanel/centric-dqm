@@ -11,11 +11,11 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 2. Several command line parameters are supported:
 
-> ```-t``` Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
+** ```-t``` Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
 
-> ```-s``` Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
+** ```-s``` Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
 
-> ```-p``` Specifies days past which test cases will be purged from the system.  Not that while test cases may be purged, the master test record will be preserved. Example: ```-p 30```
+** ```-p``` Specifies days past which test cases will be purged from the system.  Not that while test cases may be purged, the master test record will be preserved. Example: ```-p 30```
 
 **NOTE: Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45).**
 
