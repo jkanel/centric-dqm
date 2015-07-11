@@ -2,7 +2,7 @@
 
 Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actual and expected datasets. The related Java project and source code is located at [centric-dqm-java](http://github.com/jkanel/centric-dqm-java).
 
-**NOTE: Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45) and higher.**
+**Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45) and higher.**
 
 ## Framework Use
 1. The framework is an executable JAR file.  An example of execution is available in [```centric-dqm/jar_exec_win.bat```](https://github.com/jkanel/centric-dqm/blob/master/jar_exec_win.bat)
