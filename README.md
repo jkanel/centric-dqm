@@ -15,6 +15,7 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 * **```-p```** Specifies days past which test cases will be purged from the system.  Not that while aged test cases are purged, the master test record will be preserved. Example: ```-p 30```
 
+3. If there are no tag **```-t```** or scenario **```-s```** command line parameters specified, the framework will test all active ```active_flag = "Y"``` scenarios.
 
 
 ## Extension Installation Options
