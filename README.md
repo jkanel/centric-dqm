@@ -23,10 +23,7 @@ If there are no tag **```-t```** or scenario **```-s```** command line parameter
 ## Management Database Properties File
 The properties file, ```com.centric.dqm.properties```, specifies location and access to the DQM management database.   This file is located in the same directory as the executable JAR file.
 
-
-
-
-
+The following shows contents of an example properties file:
 ```
 driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
 url=jdbc:sqlserver://localhost;databaseName=dqm_mgr
