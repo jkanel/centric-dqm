@@ -14,7 +14,7 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 > ```-s``` Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
 
-> ```-p``` Specifies days past which test cases will be purged from the system.  Not that while test cases may be purged, the test record -- includes test result summaries -- will be preserved. Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
+> ```-p``` Specifies days past which test cases will be purged from the system.  Not that while test cases may be purged, the master test record will be preserved. Example: ```-p 30```
 
 **NOTE: Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45).**
 
