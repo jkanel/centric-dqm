@@ -1,6 +1,6 @@
 # Centric Data Quality Monitoring
 
-Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actual and expected datasets. The realated Java source project is http://github.com/jkanel/centric-dqm-java.
+Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actual and expected datasets. The realated Java source project is located here: http://github.com/jkanel/centric-dqm-java.
 
 **Other Features:**
 * Support for LaTex and MathML formula markup. http://docs.mathjax.org/en/latest/tex.html
@@ -8,14 +8,11 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 ## Framework Use
 1. The framework is an executable JAR file.  An example of execution is available in ```http://github.com/jkanel/centric-dqm/jar_exec_win.bat```
-2. Enter a target Html filename.  It is recommended that target folder be dedicated for this purpose.
-3. The extension will automatically generate the following:
-    1. Target Html file.
-    2. Xml file having the same name as the Html file.
-    3. Resources folder containing CSS, java script and graphics files.
-    4. Diagrams folder containing SVG diagrams from your StarUML project.
-4. Open the Html file in any browser.
-5. The Xml file may be used as a data source for MS Word or other document merge technologies.
+2. Several command line parameters are supported:
+
+--- ```-t``` Comma-delimited list of tags.  Any scenarios whose tag list contains a match with the parameter list will be tested. Example: ```-t "TAG1,TAG2,ABCD"```
+--- ```-s``` Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
+--- ```-p``` Specifies days past which test cases will be purged from the system.  Not that while test cases may be purged, the test record -- includes test result summaries -- will be preserved. Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
 
 **NOTE: Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45).**
 
