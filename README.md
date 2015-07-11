@@ -2,9 +2,7 @@
 
 Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actual and expected datasets. The related Java project and source code is located at [centric-dqm-java](http://github.com/jkanel/centric-dqm-java).
 
-**Other Features:**
-* Support for LaTex and MathML formula markup. http://docs.mathjax.org/en/latest/tex.html
-* Honors carriage returns in the rendering of Html (added 2015-05-15).
+**NOTE: Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45) and higher.**
 
 ## Framework Use
 1. The framework is an executable JAR file.  An example of execution is available in [```centric-dqm/jar_exec_win.bat```](https://github.com/jkanel/centric-dqm/blob/master/jar_exec_win.bat)
@@ -15,9 +13,9 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 
 * **```-s```** Comma-delimited list of scenarios.  Any scenarios whose identifier (scenario_uid) is a match with the paramter list will be tested.  Example: ```-s "SCENARIO1,SCENARIO2,XYZ"```
 
-* **```-p```** Specifies days past which test cases will be purged from the system.  Not that while test cases may be purged, the master test record will be preserved. Example: ```-p 30```
+* **```-p```** Specifies days past which test cases will be purged from the system.  Not that while aged test cases are purged, the master test record will be preserved. Example: ```-p 30```
 
-**NOTE: Compatible with Java Runtime Environment 1.6.0.45 (Oracle 6u45).**
+
 
 ## Extension Installation Options
 ### #1 - StarUML Extension Manager
