@@ -7,7 +7,7 @@ Centric Data Quality Monitoring (DQM) is a  testing framework for comparing actu
 * Honors carriage returns in the rendering of Html (added 2015-05-15).
 
 ## Framework Use
-1. The framework is an executable JAR file.  An example of execution is available in ```[jkanel/centric-dqm/jar_exec_win.bat](http://github.com/jkanel/centric-dqm/jar_exec_win.bat)```
+1. The framework is an executable JAR file.  An example of execution is available in [```jkanel/centric-dqm/jar_exec_win.bat```](http://github.com/jkanel/centric-dqm/jar_exec_win.bat)
 
 2. Several command line parameters are supported:
 
