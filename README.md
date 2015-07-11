@@ -24,7 +24,8 @@ If there are no tag **```-t```** or scenario **```-s```** command line parameter
 The properties file, ```com.centric.dqm.properties```, specifies location and access to the DQM management database.   This file is located in the same directory as the executable JAR file.
 
 **At this time only SQL Server is supported to host the management database.**
-**LDAP authenticated login is not yet supported.  A database login with user name and password are required.**
+
+**LDAP authenticated login is not yet supported. A database login with user name and password are required.**
 
 ```
 driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
