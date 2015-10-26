@@ -1,32 +1,61 @@
-2015-07-15 21:32:56.015 - PATH: .\addons
-2015-07-15 21:32:56.017 - Entering application
-2015-07-15 21:32:56.017 - Interpreting command line parameters
-2015-07-15 21:32:56.017 - Tags: CAP,ABC
-2015-07-15 21:32:56.018 - Scenarios: TEST1,TEST2
-2015-07-15 21:32:56.018 - Checking that management database exists
-2015-07-15 21:32:56.832 - Purging test cases prior to 20 days ago
-2015-07-15 21:32:56.906 - Importing scenarios...
-2015-07-15 21:32:56.907 - Initiating testing harness
-2015-07-15 21:32:57.059 - Performing tests
-2015-07-15 21:32:57.095 - Testing scenario "CAP_GL1" (71393832-5d2c-4400-b141-8106e0fe39cc).
-2015-07-15 21:32:58.769 - Adding "CAP_GL1" metadata "net_amt".
-2015-07-15 21:32:58.771 - Adding "CAP_GL1" metadata "income_amt".
-2015-07-15 21:32:58.771 - Adding "CAP_GL1" metadata "expense_amt".
-2015-07-15 21:32:58.772 - Adding "CAP_GL1" metadata "net_expense_amt".
-2015-07-15 21:32:58.773 - Adding "CAP_GL1" metadata "net_revenue_amt".
-2015-07-15 21:32:58.774 - Adding "CAP_GL1" metadata "cogs_amt".
-2015-07-15 21:32:58.775 - Adding "CAP_GL1" metadata "net_cogs_amt".
-2015-07-15 21:32:58.776 - Adding "CAP_GL1" metadata "reimb_expense_income_amt".
-2015-07-15 21:32:58.776 - Adding "CAP_GL1" metadata "reimb_expense_cost_amt".
-2015-07-15 21:32:58.777 - Adding "CAP_GL1" metadata "employee_cost_amt".
-2015-07-15 21:32:58.778 - Adding "CAP_GL1" metadata "contractor_cost_amt".
-2015-07-15 21:32:58.779 - Adding "CAP_GL1" metadata "w2t_cost_amt".
-2015-07-15 21:32:58.780 - Adding "CAP_GL1" metadata "gross_profit_amt".
-2015-07-15 21:32:58.781 - Adding "CAP_GL1" metadata "non_cogs_amt".
-2015-07-15 21:32:58.783 - Adding "CAP_GL1" metadata "net_profit_amt".
-2015-07-15 21:32:58.784 - Adding "CAP_GL1" metadata "centric_cost_amt".
-2015-07-15 21:32:58.785 - Adding "CAP_GL1" metadata "centric_cost_transfer_amt".
-2015-07-15 21:32:58.787 - Adding "CAP_GL1" metadata "net_centric_cost_amt".
-2015-07-15 21:32:58.788 - Adding "CAP_GL1" metadata "bu_cost_amt".
-2015-07-15 21:32:58.790 - Adding "CAP_GL1" metadata "operating_profit_amt".
-2015-07-15 21:32:58.791 - Adding "CAP_GL1" metadata "shared_profit_transfer_amt".
+2015-09-16 12:49:33.743 - Entering application
+2015-09-16 12:49:33.745 - Interpreting command line parameters
+2015-09-16 12:49:33.745 - Tags: CAP,ABC
+2015-09-16 12:49:33.745 - Scenarios: TEST1,TEST2
+2015-09-16 12:49:33.746 - Checking that management database exists
+2015-09-16 12:49:36.177 - Purging test cases prior to 20 days ago
+2015-09-16 12:49:36.306 - Importing scenarios...
+2015-09-16 12:49:36.306 - Initiating testing harness
+2015-09-16 12:49:36.607 - Performing tests
+2015-09-16 12:49:36.667 - Testing scenario "CAP_GL1" (243dadd8-4533-4d95-945b-67fbb083fe4c).
+2015-09-16 12:49:41.753 - Adding "CAP_GL1" metadata "net_amt".
+2015-09-16 12:49:41.754 - Adding "CAP_GL1" metadata "income_amt".
+2015-09-16 12:49:41.755 - Adding "CAP_GL1" metadata "expense_amt".
+2015-09-16 12:49:41.756 - Adding "CAP_GL1" metadata "net_expense_amt".
+2015-09-16 12:49:41.757 - Adding "CAP_GL1" metadata "net_revenue_amt".
+2015-09-16 12:49:41.757 - Adding "CAP_GL1" metadata "cogs_amt".
+2015-09-16 12:49:41.758 - Adding "CAP_GL1" metadata "net_cogs_amt".
+2015-09-16 12:49:41.759 - Adding "CAP_GL1" metadata "reimb_expense_income_amt".
+2015-09-16 12:49:41.760 - Adding "CAP_GL1" metadata "reimb_expense_cost_amt".
+2015-09-16 12:49:41.761 - Adding "CAP_GL1" metadata "employee_cost_amt".
+2015-09-16 12:49:41.762 - Adding "CAP_GL1" metadata "contractor_cost_amt".
+2015-09-16 12:49:41.763 - Adding "CAP_GL1" metadata "w2t_cost_amt".
+2015-09-16 12:49:41.765 - Adding "CAP_GL1" metadata "gross_profit_amt".
+2015-09-16 12:49:41.767 - Adding "CAP_GL1" metadata "non_cogs_amt".
+2015-09-16 12:49:41.769 - Adding "CAP_GL1" metadata "net_profit_amt".
+2015-09-16 12:49:41.771 - Adding "CAP_GL1" metadata "centric_cost_amt".
+2015-09-16 12:49:41.773 - Adding "CAP_GL1" metadata "centric_cost_transfer_amt".
+2015-09-16 12:49:41.774 - Adding "CAP_GL1" metadata "net_centric_cost_amt".
+2015-09-16 12:49:41.775 - Adding "CAP_GL1" metadata "bu_cost_amt".
+2015-09-16 12:49:41.777 - Adding "CAP_GL1" metadata "operating_profit_amt".
+2015-09-16 12:49:41.777 - Adding "CAP_GL1" metadata "shared_profit_transfer_amt".
+2015-09-16 12:49:41.974 - java.lang.NullPointerException
+	at com.centric.dqm.testing.TestCase.generateHashKey(TestCase.java:250)
+	at com.centric.dqm.testing.Scenario.loadComparisons(Scenario.java:290)
+	at com.centric.dqm.testing.Scenario.performTest(Scenario.java:114)
+	at com.centric.dqm.Application.main(Application.java:158)
+
+2015-09-16 12:49:42.001 - Writing test CAP_GL1 results
+2015-09-16 12:50:47.491 - Testing scenario "TEST1" (90d4ea78-8606-42c7-9f88-bd2bdd2a056b).
+2015-09-16 12:50:47.546 - com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near 'expected'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.doExecuteStatement(SQLServerStatement.java:792)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement$StmtExecCmd.doExecute(SQLServerStatement.java:689)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeQuery(SQLServerStatement.java:616)
+	at com.centric.dqm.data.DataUtils.executeCommandWithResult(DataUtils.java:147)
+	at com.centric.dqm.data.generic.GenericConnection.executeCommandWithResult(GenericConnection.java:56)
+	at com.centric.dqm.testing.Query.execute(Query.java:52)
+	at com.centric.dqm.testing.Scenario.performTest(Scenario.java:102)
+	at com.centric.dqm.Application.main(Application.java:158)
+
+2015-09-16 12:50:47.548 - java.lang.IllegalStateException: The expected query was not able to execute.
+	at com.centric.dqm.testing.Scenario.performTest(Scenario.java:106)
+	at com.centric.dqm.Application.main(Application.java:158)
+
+2015-09-16 12:50:47.549 - Writing test TEST1 results
+2015-09-16 12:50:47.595 - Exiting the application
